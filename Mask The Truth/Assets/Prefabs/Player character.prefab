@@ -106,12 +106,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   InputActions: {fileID: 0}
-  WhisperLiesRate: 3
-  NormalLiesRate: 0
-  NormalWisperLiesRate: 0
+  WhisperLiesRate: 0.3
+  NormalLiesRate: 0.3
+  NormalWisperLiesRate: 0.1
   wisperrange: 3
-  NormalTalkRange: 0
-  NormalWisperRange: 0
+  NormalTalkRange: 3
+  NormalWisperRange: 1
   whatIsPeople:
     serializedVersion: 2
     m_Bits: 64

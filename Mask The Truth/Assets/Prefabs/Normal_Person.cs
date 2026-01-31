@@ -1,10 +1,13 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Normal_Person : MonoBehaviour
 {
     public float conversionmeter;
     private bool converted = false;
+
+    [SerializeField] private Slider personalSlider;
 
     public float Fatigue= 0.005f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -36,6 +39,8 @@ public class Normal_Person : MonoBehaviour
         {
             conversionmeter = 0;
         }
+
+        personalSlider.value = conversionmeter;
     }
 
     public void Convince(float conversionRate)
