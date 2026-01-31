@@ -46,17 +46,22 @@ public class Worldscript : MonoBehaviour
 
         if (hourEvent[eventcounter]<=world_timer/HourLenth)
         {
+            if (eventcounter==4)
+            {
+                EventOne();
+            }
             eventcounter++;
             prefabsnitch.StartNextAction(eventcounter);
             prefabsnitch1.StartNextAction(eventcounter);
             prefabsnitch2.StartNextAction(eventcounter);
-
+            
         }
     }
 
     void EventOne()
     {
-        
+        SceneManager.LoadScene("OutOfTime");
+
     }
 
     public void convertedCounter()

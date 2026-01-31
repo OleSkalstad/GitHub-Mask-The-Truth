@@ -10,6 +10,9 @@ public class Snitch : MonoBehaviour
     private int MaxPoints;
     [SerializeField] private Sprite[] IrectionalSprites;
 
+    [SerializeField] private Transform[] SecondPath;
+    private bool CanStartSecond = false; 
+
     [SerializeField] private int[] CurrentAction;
     private int currentI;
     
@@ -78,7 +81,50 @@ public class Snitch : MonoBehaviour
 
         
     }
+    void GotoScondtTarget()
+    {
+        if (CanStartSecond!)
+        {
+            return;
+        }
+        //initate the number of waypoints
+        if (GoOnce)
+        {
+            MaxPoints=SecondPath.Length;
+            timer = 0;
+            GoOnce = false;
+            WalkingAnim();
 
+        }
+        if (timer / 4 >= 1 && (CurrentPoint + 1) == MaxPoints)
+        {
+            GoOnce = true;
+            ActionWalk = false;
+            currentI++;
+        }
+        
+        if (timer / 4 >= 1 && (CurrentPoint + 1) <= MaxPoints)
+        {
+            CurrentPoint++;
+            timer = 0;
+            Debug.Log("nextPath");
+            
+ 
+            WalkingAnim();
+        }
+
+        if (timer/4<=1&& (CurrentPoint + 1) < MaxPoints)
+        {
+            timer += Time.deltaTime;
+            Vector3 pathOne = SecondPath[CurrentPoint].position;
+            Vector3 PathTwo = SecondPath[CurrentPoint+1].position;
+            transform.position=Vector3.Lerp(pathOne,PathTwo,timer/4);
+            
+           
+        }
+
+        
+    }
     public void StartNextAction(int i)
     {
         if (i == CurrentAction[currentI]&&currentI<=CurrentAction.Length)
