@@ -51,7 +51,8 @@ public class PlayerScript : MonoBehaviour
 
             if (enemiesToDamage[i].GetComponent<Snitch>())
             {
-             Debug.Log("i got caught");   
+                enemiesToDamage[i].GetComponent<Snitch>().Caught();
+
             }
             enemiesToDamage[i].GetComponent<Snitch>();
             Debug.Log(enemiesToDamage[i]);
@@ -89,9 +90,7 @@ public class PlayerScript : MonoBehaviour
     private void FixedUpdate()
     {
         movement = m_movement.ReadValue<Vector2>();
-       // float verticalInput = Input.GetAxis("Vertical");
         transform.Translate(movement*speed) ;
-        //Rigidbody2D.linearVelocity = new Vector2(verticalInput * speed, Rigidbody2D.linearVelocity.x);
 
     }
 }
