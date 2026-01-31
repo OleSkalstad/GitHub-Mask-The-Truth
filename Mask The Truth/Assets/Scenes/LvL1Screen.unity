@@ -408,7 +408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6200069525073817328, guid: 6f1701945e9433d4aa9586ab0e4fa0b3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.05
       objectReference: {fileID: 0}
     - target: {fileID: 6200069525073817328, guid: 6f1701945e9433d4aa9586ab0e4fa0b3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1293,7 +1293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403484856776938910, guid: 82adae1b26f7f2c4383c8fca45ae37cb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.52
       objectReference: {fileID: 0}
     - target: {fileID: 403484856776938910, guid: 82adae1b26f7f2c4383c8fca45ae37cb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1714,6 +1714,7 @@ MonoBehaviour:
   - 3
   - 4
   - 5
+  - 6
   StartCount: 0
   compareCount: 0
   world_timer: 0
@@ -2727,11 +2728,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3879105665386232185, guid: 975fb19d862562b4992469d464d49590, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.41
+      value: -8.62
       objectReference: {fileID: 0}
     - target: {fileID: 3879105665386232185, guid: 975fb19d862562b4992469d464d49590, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.53
+      value: -4.19
       objectReference: {fileID: 0}
     - target: {fileID: 3879105665386232185, guid: 975fb19d862562b4992469d464d49590, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2791,7 +2792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6429745460748458430, guid: 975fb19d862562b4992469d464d49590, type: 3}
       propertyPath: NormalLiesRate
-      value: 0.025
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 6429745460748458430, guid: 975fb19d862562b4992469d464d49590, type: 3}
       propertyPath: NormalTalkRange
@@ -2799,7 +2800,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6429745460748458430, guid: 975fb19d862562b4992469d464d49590, type: 3}
       propertyPath: WhisperLiesRate
-      value: 0.025
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 6429745460748458430, guid: 975fb19d862562b4992469d464d49590, type: 3}
       propertyPath: NormalWisperRange
@@ -2807,7 +2808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6429745460748458430, guid: 975fb19d862562b4992469d464d49590, type: 3}
       propertyPath: NormalWisperLiesRate
-      value: 0.0175
+      value: 0.003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
