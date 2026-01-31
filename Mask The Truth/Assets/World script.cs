@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class Worldscript : MonoBehaviour
 {
@@ -14,10 +16,15 @@ public class Worldscript : MonoBehaviour
 
      [SerializeField] private float[] hourEvent;
      private int eventcounter=0;
-     
+    
+
+     public int StartCount;
+     [FormerlySerializedAs("conpareCount")] public int compareCount;
 
      public float world_timer;
 
+     
+     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -48,4 +55,14 @@ public class Worldscript : MonoBehaviour
     {
         
     }
+
+    public void convertedCounter()
+    {
+        compareCount++;
+        if (compareCount==StartCount)
+        {
+            SceneManager.LoadScene("YouWinScreen");
+        }
+    }
+
 }

@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efec6e1ef6d50234e9af9a78d710846c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  InputActions: {fileID: 0}
+  InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   WhisperLiesRate: 0.3
   NormalLiesRate: 0.3
   NormalWisperLiesRate: 0.1

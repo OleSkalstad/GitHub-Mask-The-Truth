@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Snitch : MonoBehaviour
 {
@@ -16,6 +17,6 @@ public class Snitch : MonoBehaviour
 
     public void Caught()
     {
-        Debug.Log("GameOver");
+        SceneManager.LoadScene("YouGotCaught");
     }
 }
