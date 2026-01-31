@@ -8,12 +8,18 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float WhisperLiesRate;
     [SerializeField] private float NormalLiesRate;
     [SerializeField] private float NormalWisperLiesRate;
+    [SerializeField] private GameObject WhisperIndicator;
     
     [SerializeField] private float wisperrange;
     [SerializeField] private float NormalTalkRange;
     [SerializeField] private float NormalWisperRange;
     public LayerMask whatIsPeople;
 
+    [SerializeField] private Sprite[] DirectionalSprites;
+    private SpriteRenderer MyRender;
+
+    
+    
     [SerializeField] private float speed;
     private Rigidbody2D Rigidbody2D;
 
@@ -34,6 +40,7 @@ public class PlayerScript : MonoBehaviour
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         m_movement = InputSystem.actions.FindAction("Move");
+        MyRender = GetComponent<SpriteRenderer>();
 
     }
 
@@ -64,7 +71,8 @@ public class PlayerScript : MonoBehaviour
             Debug.Log("z");
             wisperrange = NormalTalkRange;
             WhisperLiesRate = NormalLiesRate;
-            
+            WhisperIndicator.transform.localScale =
+                new Vector3(6.8300004f,6.8300004f,6.8300004f);
         }
         
 
@@ -74,6 +82,8 @@ public class PlayerScript : MonoBehaviour
 
             wisperrange = NormalWisperRange;
             WhisperLiesRate = NormalWisperLiesRate;
+            WhisperIndicator.transform.localScale =
+                new Vector3(2.30032778f, 2.30032778f, 2.30032778f);
             
         }
            
@@ -91,6 +101,35 @@ public class PlayerScript : MonoBehaviour
     {
         movement = m_movement.ReadValue<Vector2>();
         transform.Translate(movement*speed);
+        WalkingAnim();
 
     }
+    private void WalkingAnim()
+    {
+        
+      
+            if (movement.y<0)
+            {
+                MyRender.sprite = DirectionalSprites[0];
+            }
+
+            if (movement.y>0)
+            {
+                MyRender.sprite = DirectionalSprites[1];
+
+            }
+        
+        
+       
+            if (movement.x<0)
+            {
+                MyRender.sprite = DirectionalSprites[2];
+            }
+            if (movement.x>0)
+            {
+                MyRender.sprite = DirectionalSprites[3];
+            }
+        
+    }
+
 }

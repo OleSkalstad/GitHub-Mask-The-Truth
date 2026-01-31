@@ -8,19 +8,20 @@ public class Snitch : MonoBehaviour
     private int CurrentPoint;
     private bool GoOnce=true;
     private int MaxPoints;
+    [SerializeField] private Sprite[] IrectionalSprites;
 
     [SerializeField] private int[] CurrentAction;
     private int currentI;
     
-    public bool ActionWalk=false; 
-    
+    public bool ActionWalk=false;
+    private SpriteRenderer MyRender;
 
     private float timer;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        MyRender = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -43,9 +44,10 @@ public class Snitch : MonoBehaviour
         if (GoOnce)
         {
              MaxPoints=FirstPath.Length;
-            Debug.Log(MaxPoints);
             timer = 0;
             GoOnce = false;
+            WalkingAnim();
+
         }
         if (timer / 4 >= 1 && (CurrentPoint + 1) == MaxPoints)
         {
@@ -59,6 +61,9 @@ public class Snitch : MonoBehaviour
             CurrentPoint++;
             timer = 0;
             Debug.Log("nextPath");
+            
+ 
+           WalkingAnim();
         }
 
         if (timer/4<=1&& (CurrentPoint + 1) < MaxPoints)
@@ -67,6 +72,8 @@ public class Snitch : MonoBehaviour
             Vector3 pathOne = FirstPath[CurrentPoint].position;
             Vector3 PathTwo = FirstPath[CurrentPoint+1].position;
             transform.position=Vector3.Lerp(pathOne,PathTwo,timer/4);
+            
+           
         }
 
         
@@ -78,6 +85,35 @@ public class Snitch : MonoBehaviour
         {
             ActionWalk = true;
         }
-    } 
-    
+    }
+
+    private void WalkingAnim()
+    {
+        Vector3 pathOne = FirstPath[CurrentPoint].position;
+        Vector3 PathTwo = FirstPath[CurrentPoint+1].position;
+
+        Vector3 addedTogether=PathTwo-pathOne;
+        if (addedTogether.x*addedTogether.x<addedTogether.y*addedTogether.y)
+        {
+            if (addedTogether.y>0)
+            {
+                MyRender.sprite = IrectionalSprites[0];
+            }
+            else
+            {
+                MyRender.sprite = IrectionalSprites[1];
+            }
+        }
+        else
+        {
+            if (addedTogether.x<0)
+            {
+                MyRender.sprite = IrectionalSprites[2];
+            }
+            else
+            {
+                MyRender.sprite = IrectionalSprites[3];
+            }
+        }
+    }
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f60dd3f04ceaae94da03cd8fae691b60
+guid: f99e932b497866c45a61551161db4791
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5903994303021612484
-    second: Clock_Lang-Viser_0
+      213: -5674154954881462422
+    second: main_walk_side_1_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Clock_Lang-Viser_0
+      name: main_walk_side_1_2_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 23
-        height: 102
-      alignment: 9
-      pivot: {x: 0.54964817, y: 0.9540261}
+        x: 61
+        y: 9
+        width: 299
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cd7883b9833fe150800000000000000
-      internalID: 5903994303021612484
+      spriteID: a6f84c9a12a5141b0800000000000000
+      internalID: -5674154954881462422
       vertices: []
       indices: 
       edges: []
@@ -138,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c892e23e82273dd47bc4d2ffd68e8764
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Clock_Lang-Viser_0: 5903994303021612484
+      main_walk_side_1_2_0: -5674154954881462422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
