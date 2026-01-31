@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Worldscript : MonoBehaviour
@@ -5,6 +6,11 @@ public class Worldscript : MonoBehaviour
      [SerializeField] private Snitch prefabsnitch;
      [SerializeField] private Snitch prefabsnitch1;
      [SerializeField] private Snitch prefabsnitch2;
+
+     [SerializeField] private GameObject clockViser;
+
+     [SerializeField] private float HourLenth;
+     
 
      public float world_timer;
 
@@ -18,5 +24,12 @@ public class Worldscript : MonoBehaviour
     void Update()
     {
         world_timer += Time.deltaTime;
+
+
+    }
+
+    private void FixedUpdate()
+    {
+        clockViser.transform.Rotate(new Vector3(0,0,360/(50*HourLenth)));
     }
 }
