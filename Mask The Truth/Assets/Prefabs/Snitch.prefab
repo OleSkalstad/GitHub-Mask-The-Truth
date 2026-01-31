@@ -110,7 +110,7 @@ MonoBehaviour:
   - {fileID: -1229188122179504474, guid: 7756a87a1ee2721458eebad57482e553, type: 3}
   - {fileID: -5431096604517972345, guid: 91fa8143d1ce4b54bb67daba3133bb00, type: 3}
   - {fileID: 6960202561718044495, guid: 2818b493aad9453408162da999faab5e, type: 3}
-  - {fileID: 5885111907172209121, guid: 42c764285b63fbc46982e0efb78e47ee, type: 3}
+  - {fileID: 5885111907172209121, guid: 62995ced388ab1d41906e77ce88ff00b, type: 3}
   CurrentAction: 
   ActionWalk: 0
 --- !u!58 &-8008350130850253742
