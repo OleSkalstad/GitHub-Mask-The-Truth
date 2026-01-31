@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3879105665386232185}
   - component: {fileID: 4755574900542103330}
   - component: {fileID: 6429745460748458430}
+  - component: {fileID: -1978815529283017121}
   m_Layer: 0
   m_Name: Player character
   m_TagString: Untagged
@@ -104,8 +105,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efec6e1ef6d50234e9af9a78d710846c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  InputActions: {fileID: 0}
   WhisperLiesRate: 3
+  NormalLiesRate: 0
+  NormalWisperLiesRate: 0
   wisperrange: 3
+  NormalTalkRange: 0
+  NormalWisperRange: 0
   whatIsPeople:
     serializedVersion: 2
     m_Bits: 64
+  speed: 0
+--- !u!50 &-1978815529283017121
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5461376344764701153}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

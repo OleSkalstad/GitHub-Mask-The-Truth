@@ -1,8 +1,10 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class PlayerScript : MonoBehaviour
 {
+    public InputActionAsset InputActions;
     [SerializeField] private float WhisperLiesRate;
     [SerializeField] private float NormalLiesRate;
     [SerializeField] private float NormalWisperLiesRate;
@@ -12,12 +14,26 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private float NormalWisperRange;
     public LayerMask whatIsPeople;
 
-    private CharacterController controller;
+    [SerializeField] private float speed;
+    private Rigidbody2D Rigidbody2D;
+
+    private InputAction m_movement;
+    private Vector2 movement;
+    private void OnEnable()
+    {
+        InputActions.FindActionMap("Player").Enable();
+    }
+
+    private void OnDisable()
+    {
+        InputActions.FindActionMap("Player").Disable();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+        Rigidbody2D = GetComponent<Rigidbody2D>();
+        m_movement = InputSystem.actions.FindAction("Move");
 
     }
 
@@ -67,6 +83,15 @@ public class PlayerScript : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawSphere(transform.position, wisperrange);
+
+    }
+
+    private void FixedUpdate()
+    {
+        movement = m_movement.ReadValue<Vector2>();
+       // float verticalInput = Input.GetAxis("Vertical");
+        transform.Translate(movement*speed) ;
+        //Rigidbody2D.linearVelocity = new Vector2(verticalInput * speed, Rigidbody2D.linearVelocity.x);
 
     }
 }
