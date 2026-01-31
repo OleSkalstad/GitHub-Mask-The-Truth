@@ -13,4 +13,9 @@ public class Snitch : MonoBehaviour
     {
         
     }
+
+    public void Caught()
+    {
+        Debug.Log("GameOver");
+    }
 }
