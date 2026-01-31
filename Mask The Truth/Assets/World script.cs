@@ -11,6 +11,9 @@ public class Worldscript : MonoBehaviour
      [SerializeField] private GameObject hourViser;
 
      [SerializeField] private float HourLenth;
+
+     [SerializeField] private float[] hourEvent;
+     private int eventcounter;
      
 
      public float world_timer;
@@ -33,5 +36,11 @@ public class Worldscript : MonoBehaviour
     {
         clockViser.transform.Rotate(new Vector3(0,0,-360/(50*HourLenth)));
         hourViser.transform.Rotate(new Vector3(0,0,-360/(50*HourLenth*12)));
+
+        if (hourEvent[eventcounter]>=world_timer/HourLenth)
+        {
+            Debug.Log("DingDong");
+            eventcounter++;
+        }
     }
 }
