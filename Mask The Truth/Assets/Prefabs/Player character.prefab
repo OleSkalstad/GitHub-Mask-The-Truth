@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 5144217065761784557}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05471706, y: -0.3, z: 1.91}
+  m_LocalPosition: {x: -0.05471706, y: -0.3, z: 3.01}
   m_LocalScale: {x: 6.4060845, y: 6.4060845, z: 6.4060845}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7247438384265399499, guid: def7a93035937764cbdbb8be2f298363, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.31764707}
+  m_Color: {r: 0.7509433, g: 0.22301716, b: 0.17427546, a: 0.28235295}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 4755574900542103330}
   - component: {fileID: 6429745460748458430}
   - component: {fileID: -1978815529283017121}
+  - component: {fileID: 9157497757544504213}
   m_Layer: 0
   m_Name: Player character
   m_TagString: Untagged
@@ -198,9 +199,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  WhisperLiesRate: 0.003
-  NormalLiesRate: 0.003
-  NormalWisperLiesRate: 0.003
+  WhisperLiesRate: 0.00875
+  NormalLiesRate: 0.00875
+  NormalWisperLiesRate: 0.00875
   WhisperIndicator: {fileID: 5144217065761784557}
   wisperrange: 3
   NormalTalkRange: 3
@@ -213,7 +214,7 @@ MonoBehaviour:
   - {fileID: -101206349480853098, guid: 7fd7695cfb405c44aad3276c346a3a84, type: 3}
   - {fileID: 4124559020315805008, guid: 0d6dcc0aa91dfc8408174e2625042996, type: 3}
   - {fileID: -5674154954881462422, guid: f99e932b497866c45a61551161db4791, type: 3}
-  speed: 0.1
+  speed: 0.071428575
 --- !u!50 &-1978815529283017121
 Rigidbody2D:
   serializedVersion: 5
@@ -240,4 +241,41 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!70 &9157497757544504213
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5461376344764701153}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 3.3799999, y: 7.6399994}
+  m_Direction: 0
