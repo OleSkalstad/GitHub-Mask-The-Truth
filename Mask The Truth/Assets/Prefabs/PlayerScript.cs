@@ -90,7 +90,7 @@ public class PlayerScript : MonoBehaviour
     private void FixedUpdate()
     {
         movement = m_movement.ReadValue<Vector2>();
-        transform.Translate(movement*speed) ;
+        transform.Translate(movement*speed);
 
     }
 }
