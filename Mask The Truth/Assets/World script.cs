@@ -19,7 +19,7 @@ public class Worldscript : MonoBehaviour
     
 
      public int StartCount;
-     [FormerlySerializedAs("conpareCount")] public int compareCount;
+     public int compareCount;
 
      public float world_timer;
 
@@ -46,8 +46,11 @@ public class Worldscript : MonoBehaviour
 
         if (hourEvent[eventcounter]<=world_timer/HourLenth)
         {
-            Debug.Log("DingDong");
             eventcounter++;
+            prefabsnitch.StartNextAction(eventcounter);
+            prefabsnitch1.StartNextAction(eventcounter);
+            prefabsnitch2.StartNextAction(eventcounter);
+
         }
     }
 
