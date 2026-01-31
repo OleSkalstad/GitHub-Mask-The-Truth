@@ -8,6 +8,7 @@ public class Worldscript : MonoBehaviour
      [SerializeField] private Snitch prefabsnitch2;
 
      [SerializeField] private GameObject clockViser;
+     [SerializeField] private GameObject hourViser;
 
      [SerializeField] private float HourLenth;
      
@@ -30,6 +31,7 @@ public class Worldscript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        clockViser.transform.Rotate(new Vector3(0,0,360/(50*HourLenth)));
+        clockViser.transform.Rotate(new Vector3(0,0,-360/(50*HourLenth)));
+        hourViser.transform.Rotate(new Vector3(0,0,-360/(50*HourLenth*12)));
     }
 }
