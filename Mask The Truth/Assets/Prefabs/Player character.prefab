@@ -199,9 +199,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  WhisperLiesRate: 0.00875
-  NormalLiesRate: 0.00875
-  NormalWisperLiesRate: 0.00875
+  WhisperLiesRate: 0.013125
+  NormalLiesRate: 0.013125
+  NormalWisperLiesRate: 0.013125
   WhisperIndicator: {fileID: 5144217065761784557}
   wisperrange: 3
   NormalTalkRange: 3
