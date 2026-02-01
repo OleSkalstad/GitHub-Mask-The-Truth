@@ -1929,6 +1929,10 @@ MonoBehaviour:
   - 3
   - 4
   - 5
+  titoksound:
+  - {fileID: 8189610211753319930, guid: 7ea26b228a2bf684e8bc2926fddc2985, type: 3}
+  - {fileID: 8189610211753319930, guid: 40292c4017342264ca3a16a86b56b965, type: 3}
+  gotoNextlvl: 1
   StartCount: 0
   compareCount: 0
   world_timer: 0

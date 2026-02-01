@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OutOfTime.unity
     guid: 65d2664d3f67e164084ae722f052533f
+  - enabled: 1
+    path: Assets/Scenes/Extra lvl/Lvl2.unity
+    guid: 80549e99ea93c554cbb757ad79b38674
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
