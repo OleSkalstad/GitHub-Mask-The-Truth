@@ -93,13 +93,18 @@ public class Worldscript : MonoBehaviour
         {
             TikkingOrTokking = true;
             TikToktimer = 0;
-            Instantiate(titoksound[0]);
+            AudioSource sound;
+            sound = Instantiate(titoksound[0]);
+            Destroy(sound,1);
+            
         }
         if (TikToktimer>=1&&TikkingOrTokking)
         {
             TikkingOrTokking = false;
             TikToktimer = 0;
-            Instantiate(titoksound[1]);
+            AudioSource sound;
+            sound = Instantiate(titoksound[1]);
+            Destroy(sound,1);
         }
 
     }
