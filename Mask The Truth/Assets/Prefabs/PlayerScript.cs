@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -18,10 +19,11 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] private Sprite[] DirectionalSprites;
     private SpriteRenderer MyRender;
 
-    
+    private bool HayImWALkingHere;
     
     [SerializeField] private float speed;
-    private Rigidbody2D Rigidbody2D;
+
+    [SerializeField] private AudioSource walking;    
 
     private InputAction m_movement;
     private Vector2 movement;
@@ -38,7 +40,6 @@ public class PlayerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Rigidbody2D = GetComponent<Rigidbody2D>();
         m_movement = InputSystem.actions.FindAction("Move");
         MyRender = GetComponent<SpriteRenderer>();
 
@@ -124,12 +125,33 @@ public class PlayerScript : MonoBehaviour
             if (movement.x<0)
             {
                 MyRender.sprite = DirectionalSprites[2];
+
             }
             if (movement.x>0)
             {
                 MyRender.sprite = DirectionalSprites[3];
             }
+
+            if (movement.x==0&& movement.y==0)
+            {
+           //     StopCoroutine(PlaySoundEverySecond());
+            }
+            else
+            {
+//StartCoroutine(PlaySoundEverySecond());
+
+            }
         
     }
 
+    IEnumerator PlaySoundEverySecond()
+    {
+        while (true)
+        {
+            AudioSource sound;
+            sound = Instantiate(walking);
+            Destroy(sound,1);
+            yield return new WaitForSeconds(1f);
+        }
+    }
 }
