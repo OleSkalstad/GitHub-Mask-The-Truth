@@ -19,4 +19,9 @@ public class PlayAgain : MonoBehaviour
     {
         SceneManager.LoadScene("LvL1Screen");
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
