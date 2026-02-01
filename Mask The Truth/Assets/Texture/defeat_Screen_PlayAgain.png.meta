@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 76f0ba01f50ef054bb87d6a11e1443fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2224073298172642166
+    second: defeat_Screen_PlayAgain_0
+  - first:
+      213: 6601784149359982973
+    second: defeat_Screen_PlayAgain_1
+  - first:
+      213: 8744476674766825395
+    second: defeat_Screen_PlayAgain_2
+  - first:
+      213: 1736149292620221651
+    second: defeat_Screen_PlayAgain_3
+  - first:
+      213: -1734110758798244056
+    second: defeat_Screen_PlayAgain_4
+  - first:
+      213: 652175055261011116
+    second: defeat_Screen_PlayAgain_5
+  - first:
+      213: 1570549604235086426
+    second: defeat_Screen_PlayAgain_6
+  - first:
+      213: -5524619451074289758
+    second: defeat_Screen_PlayAgain_7
+  - first:
+      213: 3183237994586846518
+    second: defeat_Screen_PlayAgain_8
+  - first:
+      213: -4861520685696288733
+    second: defeat_Screen_PlayAgain_9
+  - first:
+      213: 3170894851337942734
+    second: defeat_Screen_PlayAgain_10
+  - first:
+      213: 1208979996762162068
+    second: defeat_Screen_PlayAgain_11
+  - first:
+      213: -8836639713858635553
+    second: defeat_Screen_PlayAgain_12
+  - first:
+      213: -4704722077448462785
+    second: defeat_Screen_PlayAgain_13
+  - first:
+      213: -8137100627421101125
+    second: defeat_Screen_PlayAgain_14
+  - first:
+      213: 8810550036109284643
+    second: defeat_Screen_PlayAgain_15
+  - first:
+      213: 6679805834873786062
+    second: defeat_Screen_PlayAgain_16
+  - first:
+      213: 4465992414245738000
+    second: defeat_Screen_PlayAgain_17
+  - first:
+      213: 97664422813895045
+    second: defeat_Screen_PlayAgain_18
+  - first:
+      213: 4798844961443340435
+    second: defeat_Screen_PlayAgain_19
+  - first:
+      213: -4425731130328219383
+    second: defeat_Screen_PlayAgain_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 27
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673030c81ee7dde10800000000000000
+      internalID: 2224073298172642166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 27
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79f762c4bf3e9b50800000000000000
+      internalID: 6601784149359982973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 73
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b76a2a943f9a5970800000000000000
+      internalID: 8744476674766825395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 27
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc8ca7459a081810800000000000000
+      internalID: 1736149292620221651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 27
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827c5acd3733fe7e0800000000000000
+      internalID: -1734110758798244056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 27
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac0434e1cdfc0900800000000000000
+      internalID: 652175055261011116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 27
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a009e3b86bbc510800000000000000
+      internalID: 1570549604235086426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_7
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 76
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afd08341eb9453b0800000000000000
+      internalID: -5524619451074289758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 27
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63530ee27122d2c20800000000000000
+      internalID: 3183237994586846518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 27
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328fbdc91b8688cb0800000000000000
+      internalID: -4861520685696288733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 27
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6fc123118410c20800000000000000
+      internalID: 3170894851337942734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 11
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493cf8fc6e827c010800000000000000
+      internalID: 1208979996762162068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_12
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 26
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8b85faff2fd5580800000000000000
+      internalID: -8836639713858635553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 26
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e1fbe723875beb0800000000000000
+      internalID: -4704722077448462785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_14
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 11
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb305f07716331f80800000000000000
+      internalID: -8137100627421101125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_15
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 26
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325591ad39c554a70800000000000000
+      internalID: 8810550036109284643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_16
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 27
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ececb34040073bc50800000000000000
+      internalID: 6679805834873786062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_17
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 27
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016d4bc50746afd30800000000000000
+      internalID: 4465992414245738000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_18
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 27
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589040d6649fa5100800000000000000
+      internalID: 97664422813895045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 27
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390e00b211ce89240800000000000000
+      internalID: 4798844961443340435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defeat_Screen_PlayAgain_20
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 27
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90106694cf4a492c0800000000000000
+      internalID: -4425731130328219383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      defeat_Screen_PlayAgain_0: 2224073298172642166
+      defeat_Screen_PlayAgain_1: 6601784149359982973
+      defeat_Screen_PlayAgain_10: 3170894851337942734
+      defeat_Screen_PlayAgain_11: 1208979996762162068
+      defeat_Screen_PlayAgain_12: -8836639713858635553
+      defeat_Screen_PlayAgain_13: -4704722077448462785
+      defeat_Screen_PlayAgain_14: -8137100627421101125
+      defeat_Screen_PlayAgain_15: 8810550036109284643
+      defeat_Screen_PlayAgain_16: 6679805834873786062
+      defeat_Screen_PlayAgain_17: 4465992414245738000
+      defeat_Screen_PlayAgain_18: 97664422813895045
+      defeat_Screen_PlayAgain_19: 4798844961443340435
+      defeat_Screen_PlayAgain_2: 8744476674766825395
+      defeat_Screen_PlayAgain_20: -4425731130328219383
+      defeat_Screen_PlayAgain_3: 1736149292620221651
+      defeat_Screen_PlayAgain_4: -1734110758798244056
+      defeat_Screen_PlayAgain_5: 652175055261011116
+      defeat_Screen_PlayAgain_6: 1570549604235086426
+      defeat_Screen_PlayAgain_7: -5524619451074289758
+      defeat_Screen_PlayAgain_8: 3183237994586846518
+      defeat_Screen_PlayAgain_9: -4861520685696288733
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
