@@ -3469,6 +3469,18 @@ PrefabInstance:
       propertyPath: prefabsnitch2
       value: 
       objectReference: {fileID: 136395059}
+    - target: {fileID: 6489552445549351234, guid: 466e7216784f57b4eb3e9f7533f550e4, type: 3}
+      propertyPath: titoksound.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489552445549351234, guid: 466e7216784f57b4eb3e9f7533f550e4, type: 3}
+      propertyPath: 'titoksound.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8189610211753319930, guid: 40292c4017342264ca3a16a86b56b965, type: 3}
+    - target: {fileID: 6489552445549351234, guid: 466e7216784f57b4eb3e9f7533f550e4, type: 3}
+      propertyPath: 'titoksound.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8189610211753319930, guid: 7ea26b228a2bf684e8bc2926fddc2985, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

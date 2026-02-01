@@ -14,10 +14,17 @@ public class Worldscript : MonoBehaviour
 
      [SerializeField] private float HourLenth;
 
+
      [SerializeField] private float[] hourEvent;
      private int eventcounter=0;
+
+     
+     [SerializeField] private AudioSource[] titoksound;
+     private float TikToktimer;
+     private bool TikkingOrTokking=false;
+     
     
-    public bool gotoNextlvl = false;
+     public bool gotoNextlvl = false;
 
      public int StartCount;
      public int compareCount;
@@ -36,7 +43,7 @@ public class Worldscript : MonoBehaviour
     void Update()
     {
         world_timer += Time.deltaTime;
-
+        TikTok();
 
     }
 
@@ -79,4 +86,22 @@ public class Worldscript : MonoBehaviour
         }
     }
 
+    void TikTok()
+    {
+        TikToktimer += Time.deltaTime;
+        if (TikToktimer>=1&&!TikkingOrTokking)
+        {
+            TikkingOrTokking = true;
+            TikToktimer = 0;
+            Instantiate(titoksound[0]);
+        }
+        if (TikToktimer>=1&&TikkingOrTokking)
+        {
+            TikkingOrTokking = false;
+            TikToktimer = 0;
+            Instantiate(titoksound[1]);
+        }
+
+    }
 }
+
