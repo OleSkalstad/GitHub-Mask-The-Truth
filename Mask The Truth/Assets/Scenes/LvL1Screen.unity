@@ -1929,6 +1929,7 @@ MonoBehaviour:
   - 3
   - 4
   - 5
+  gotoNextlvl: 1
   StartCount: 0
   compareCount: 0
   world_timer: 0

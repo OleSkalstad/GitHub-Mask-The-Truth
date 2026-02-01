@@ -17,6 +17,7 @@ public class Worldscript : MonoBehaviour
      [SerializeField] private float[] hourEvent;
      private int eventcounter=0;
     
+    public bool gotoNextlvl = false;
 
      public int StartCount;
      public int compareCount;
@@ -60,6 +61,7 @@ public class Worldscript : MonoBehaviour
 
     void EventOne()
     {
+        
         SceneManager.LoadScene("OutOfTime");
 
     }
@@ -67,9 +69,13 @@ public class Worldscript : MonoBehaviour
     public void convertedCounter()
     {
         compareCount++;
-        if (compareCount==StartCount)
+        if (compareCount==StartCount && !gotoNextlvl)
         {
             SceneManager.LoadScene("YouWinScreen");
+        }
+    if (compareCount==StartCount && gotoNextlvl)
+        {
+         SceneManager.LoadScene("Lvl2");
         }
     }
 
